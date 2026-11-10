@@ -77,8 +77,15 @@ python app.py log --n 20
 
 Both models were trained in Kaggle notebooks:
 
-- CNN: 
-- EfficientNet-B0
+- CNN: Training Curves :
+
+ <img width="1241" height="436" alt="CNN_TrainingCurve" src="https://github.com/user-attachments/assets/4c1b26b4-63c7-4cbd-8f53-f626f095691f" />
+
+  
+- EfficientNet-B0 : Training Curves :
+
+  <img width="1389" height="490" alt="EfficientNetB0_TrainingCurve" src="https://github.com/user-attachments/assets/d6334fab-69bf-4bf3-a8ba-131586d4f53e" />
+
 
 Dataset: [Grocery Store Dataset](https://github.com/marcusklasson/GroceryStoreDataset), only the 60 classes that appear in train, val and test.
 
