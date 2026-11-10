@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy
+pillow
+scikit-learn
+matplotlib
+opencv-python
+streamlit
+pandas
+fastapi
+uvicorn
+python-multipart
+requests
+httpx

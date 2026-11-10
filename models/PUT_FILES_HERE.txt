@@ -1,0 +1,1 @@
+Put best_cnn_v3.pth and classes.json here (see README).
