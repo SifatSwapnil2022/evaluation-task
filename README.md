@@ -73,7 +73,7 @@ The weights are not in this repo (they are too big for git). Get them from the *
 | Model | Notebook | File to download | Save it as |
 |---|---|---|---|
 | EfficientNet-B0 (main) | [efficientnet-b0-finetune](https://www.kaggle.com/code/xxxguruji/efficientnet-b0-finetune) | `best_effnet_b0_es.pth` | `models/best_effnet_b0_es.pth` |
-| CNN from scratch | [last-day-v1-cnn](https://www.kaggle.com/code/mdsifatullahsheikh/last-day-v1-cnn) | `best_cnn_v3.pth` | `models/final_best_cnn_v3.pth` (rename it) |
+| CNN from scratch | [last-day-v1-cnn](https://www.kaggle.com/code/mdsifatullahsheikh/last-day-v1-cnn) | `best_cnn_v3.pth` | `models/final_best_cnn_v3.pth`  |
 
 ```
 models/
