@@ -98,9 +98,9 @@ Do not have a test image? Use any photo of one of the 60 products, or take one f
 
 ```bash
 python app.py scan path/to/image.jpg
-python app.py scan path/to/image.jpg --yes      # skip the confirmation question
-python app.py scan path/to/image.jpg --remove   # a sale: subtract from stock
-python app.py camera                            # webcam: SPACE = scan, Q = quit
+python app.py scan path/to/image.jpg --yes    
+python app.py scan path/to/image.jpg --remove  
+python app.py camera                            
 python app.py stats
 python app.py log --n 20
 ```
