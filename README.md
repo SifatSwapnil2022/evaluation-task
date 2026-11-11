@@ -60,7 +60,6 @@ Answering `n` shows the next two most likely classes so the user can correct the
 | `predictor.py` | Loads the model once, returns label, confidence, top-3, accepted/rejected |
 | `inventory.py` | SQLite stock table and scan log |
 | `app.py` | Terminal app: scan, camera, stats, log |
-| `api.py`, `benchmark_api.py` | Bonus: FastAPI service and latency benchmark |
 
 ## 3. Reproducing the results
 
@@ -153,12 +152,10 @@ Known limitation: the from-scratch CNN reaches 0.746 test accuracy against 1.000
 
 ```bash
 uvicorn api:app --port 8000
-python benchmark_api.py path/to/image.jpg          # 20 requests, average and median latency
 ```
 
 The model is loaded once at startup. Endpoints: `GET /health`, `POST /predict` (image upload), `POST /scan?qty=1&remove=false&confirmed=true` (updates stock only when `confirmed=true`), `GET /stats`.
 
-Latency over 20 requests: <!-- TODO: average / median from benchmark_api.py -->
 
 ## 10. Notes
 
